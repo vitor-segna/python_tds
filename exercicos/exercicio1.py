@@ -1,0 +1,7 @@
+nome = input("Qual seu nome? ")
+sobrenome = input("Qual seu sobrenome? ")
+email = input("Qual seu e-mail? ")
+idade = input("Qual sua idade? ")
+cidade = input("Qual sua cidade? ")
+estado = input("Qual seu estado ")
+print(f"Boas Vindas {nome } {sobrenome }, seu e-mail é o: {email }, a sua idade é de {idade } anos, sua cidade é {cidade } do estado de {estado}. ")
