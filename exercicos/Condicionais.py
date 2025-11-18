@@ -3,11 +3,11 @@ print(f'Programa de empréstimos. '
 
 
 nome_negativado = int(input('Possui nome negativado?'))
-if  nome_negativado == 1: #sim
+if  nome_negativado == 0: #sim
     print('Não pode realizar empréstimo')
 else:
     carteira_assinada = int(input('Possui carteira assinada?'))
-if  carteira_assinada == 0: #nao
+if  carteira_assinada == 1: #nao
     print('Não pode realizar empréstimo')
 else:
     possui_casa_propria = int(input('Possui casa própria?'))
